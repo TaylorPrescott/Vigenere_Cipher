@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+header {
+    margin-bottom: 50px;;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid rgb(150, 13, 13);
+    background-color: rgb(44, 66, 85);
+    color: rgb(255, 255, 255);
+}
+
+.result {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 10px 5px;
+}
+
+.option-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea {
+    display: block;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(44, 66, 85);
+    color: white;
+    font-weight: bolder;
+    border: 1px solid rgb(240, 226, 226);
+}
+
+.cipherKey-label, .cipherKey {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

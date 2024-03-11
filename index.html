@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignere Cipher</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h3>Encode / Decode a Vignere Cipher</h3>
+    </header>
+    <main>
+        <section class="cipher-container">
+            <p id="result" class="result">...</p>
+            <div class="option-container">
+                <input type="radio" id="encode" name="option" value="Encode" checked="checked">
+                <label for="encode">Encode</label><br>
+                <input type="radio" id="decode" name="option" value="decode" >
+                <label for="decode">Decode</label><br>
+            </div>
+            <label for="cipherKey" class="cipherKey-label">Key:</label>
+            <input type="text" name="cipherKey" id="cipherKey" class="cipherKey">
+            <textarea name="cipher-text" id="cipherText" cols="40" rows="10"></textarea>
+            <button id="submit">Submit</button>
+        </section>
+    </main>
+</body>
+</html>
